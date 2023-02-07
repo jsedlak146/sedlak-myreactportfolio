@@ -1,4 +1,4 @@
-import aboutpic from "./components/Access/mePhoto.jpg"
+import aboutpic from "./components/Access/mePhoto.jpeg"
 
 const header = {
   homepage: '',
@@ -13,7 +13,7 @@ const about = {
   role: 'Full Stack Developer',
   description:
     'Monmouth University and Rutgers University graduate with a background in finance, pursuing a career in tech',
-  resume: 'https://docs.google.com/document/d/1eSKP8TZ4iAKXsMT5RaOpXHXJI0IPuac6qT6SUSbwOTw/edit?usp=sharing',
+  resume: 'https://docs.google.com/document/d/18GQmO7Gj5nAm92gq6SlIifxJQIWFw-yW/edit?usp=sharing&ouid=115316355259387561828&rtpof=true&sd=true',
   social: {
     linkedin: 'https://www.linkedin.com/in/joseph-sedlak/',
     github: 'https://github.com/jsedlak146',
@@ -62,7 +62,6 @@ const skills = [
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
   email: 'jssedlak146@gmail.com',
 }
 
