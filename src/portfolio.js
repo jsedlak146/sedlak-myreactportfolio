@@ -1,95 +1,69 @@
 import aboutpic from "./components/Access/mePhoto.jpg"
 
 const header = {
-  homepage: 'https://morganbb104.github.io/HW_20_Portfolio_withReact/',
-  title: 'JS.',
+  homepage: '',
+  title: 'Sedlak Portfolio',
 }
+
+//refactoring of body, this is all of the information for my portfolio
 
 const about = {
   photo:aboutpic,
-  // all the properties are optional - can be left empty or deleted
   name: 'Joseph Sedlak',
   role: 'Full Stack Developer',
   description:
     'Monmouth University and Rutgers University graduate with a background in finance, pursuing a career in tech',
-  resume: 'https://drive.google.com/drive/folders/12MP3uHk94Ew6_egSJqgxbvycI60gHfXA?usp=sharing',
+  resume: 'https://docs.google.com/document/d/1eSKP8TZ4iAKXsMT5RaOpXHXJI0IPuac6qT6SUSbwOTw/edit?usp=sharing',
   social: {
-    linkedin: 'https://www.linkedin.com/in/cheng-chien-huang-912467152/',
-    github: 'https://github.com/Morganbb104',
+    linkedin: 'https://www.linkedin.com/in/joseph-sedlak/',
+    github: 'https://github.com/jsedlak146',
   },
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
+
   {
-    name: 'Movie Tracker',
+    name: 'Travel Planner',
     description:
-      'As users, we see a page that lets anyone look for the movies from the search bar by key words, and obtaining the actual or similar movies with their years, actors, rating, and description information by recommendation. In addition, they can search the nearby theaters from where they currently are located.',
-    stack: ['localstorage', 'Openweather API', 'Google Map API','Movie Database API'],
-    sourceCode: 'https://github.com/Mike-C-Sanders/Movie-Tracker',
-    livePreview: 'https://mike-c-sanders.github.io/Movie-Tracker/',
+      'This project was uilt to help people plan their trips.  Similar to TripAdvisor, users can search by their vacation destination and view AirBnbs in the area, as well as local attractions.',
+    stack: ['localstorage', 'Openweather API', 'Google Map API','Brewery API', 'AirBnb API'],
+    sourceCode: 'https://github.com/jsedlak146/group8-vacationplanner',
+    livePreview: 'https://jsedlak146.github.io/group8-vacationplanner/',
   },
   {
-    name: 'Event Planner',
+    name: 'SmokeQuitter',
     description:
-      'Event Planner was designed with the partier in mind, the one who wants to find fine dinning or a friend to have a good time. Event Planner is the easiest way for anyone to find an event to attend, create or host your own event or browse whats happening in your local area.',
-    stack: ['swiper.js', 'npm', 'jawsdb','handlebars','express','nodejs'],
-    sourceCode: 'https://github.com/Morganbb104/Event_Planner_project2',
-    livePreview: 'https://obscure-chamber-98928.herokuapp.com/',
+      'We decided to build this app to help users quit smoking.  After logging on, the user can track their progress visually, and is able to enter daily forms to further track their habits and their feelings.',
+    stack: ['jawsdb','handlebars','express','nodejs'],
+    sourceCode: 'https://github.com/jsedlak146/group7-project2',
+    livePreview: 'https://group7-smokequitter.herokuapp.com/',
   },
   {
-    name: 'Resource Planner',
+    name: 'Placeholder for Project 3',
     description:
-      'Resource Planner is able to distrute the current resource including human resource,time and budget in one company in order to help user to manahe their projects',
-    stack: ['html-css-javascript', 'sequelize', 'React'],
-    sourceCode: 'https://github.com/stone-com/Resource-Planner',
-    livePreview: 'https://resource-planner-group2.herokuapp.com/',
-  },
-  {
-    name: 'GameStoreData(back end)',
-    description:
-      'GameStoreData is able to let user retrieve the game from database based on its year and category',
-    stack: ['Java 8', 'MySQL', 'React'],
-    sourceCode: 'https://github.com/stone-com/Resource-Planner',
-    
-  },
-  {
-    name: 'Music Store(back end)',
-    description:
-      'MusicStore is able to direct user to the desired page based on its endpoints by track, album,artist and label',
-    stack: ['html-css-javascript', 'sequelize', 'React'],
-    sourceCode: 'https://github.com/Morganbb104/M7-project2-musictore-recommendations-Huang_Chengchien',
-    livePreview: 'https://cheng32-musicstore-catalog.herokuapp.com/track',
+      '................................................................................. Will be adding project 3 once it is finished.......................................................',
+    stack: ['React', 'sequelize', 'MongoDB', 'node'],
+    sourceCode: 'GitHub Link will go here',
+    livePreview: 'Live deployed will go here',
   },
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
   'Express',
   'MySQL',
   'MongoDB',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
   'Git',
   'MERN',
-  'Java 8',
-  'Java Spring Boot',
-  'Microservices',
-  'Docker',
   'Heroku'
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'hcc780921@gmail.com',
+  email: 'jssedlak146@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
