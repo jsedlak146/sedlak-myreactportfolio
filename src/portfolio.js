@@ -1,7 +1,6 @@
 import aboutpic from "./components/Access/mePhoto.jpg"
 
 const header = {
-  // all the properties are optional - can be left empty or deleted
   homepage: 'https://morganbb104.github.io/HW_20_Portfolio_withReact/',
   title: 'JS.',
 }
@@ -9,10 +8,10 @@ const header = {
 const about = {
   photo:aboutpic,
   // all the properties are optional - can be left empty or deleted
-  name: 'CHENG CHIEN',
-  role: 'Full stack developer',
+  name: 'Joseph Sedlak',
+  role: 'Full Stack Developer',
   description:
-    'UW and SMU bootcamp student living in Seattle,Washington. highly interested in cutting edge technology, web development and Java back end development.',
+    'Monmouth University and Rutgers University graduate with a background in finance, pursuing a career in tech',
   resume: 'https://drive.google.com/drive/folders/12MP3uHk94Ew6_egSJqgxbvycI60gHfXA?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/cheng-chien-huang-912467152/',
