@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div className='about center'>
       {photo && (
-       <img height="200px" alt="Avatar placeholder" src={photo} />
+       <img height="450px" alt="Sedlak pic" src={photo} />
       )}
       {name && (
         <h1>
