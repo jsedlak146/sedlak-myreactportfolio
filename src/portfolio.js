@@ -39,12 +39,12 @@ const projects = [
     livePreview: 'https://group7-smokequitter.herokuapp.com/',
   },
   {
-    name: 'Placeholder for Project 3',
+    name: 'Expense Tracker',
     description:
-      '................................................................................. Will be adding project 3 once it is finished.......................................................',
+      'This app was built to help people track their expenses.  It breaks down expenses by category, and also offers graphs and charts to visualize spending and see what your money can do.',
     stack: ['React', 'sequelize', 'MongoDB', 'node'],
-    sourceCode: 'GitHub Link will go here',
-    livePreview: 'Live deployed will go here',
+    sourceCode: 'https://github.com/BillStephens2022/Expense-Tracker-MERN',
+    livePreview: 'https://expense-tracker-mern.herokuapp.com/',
   },
 ]
 
